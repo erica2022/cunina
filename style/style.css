@@ -11,14 +11,19 @@
     src: local('Raleway'), url(../fonts/Raleway-VariableFont_wght.ttf) format('truetype');
   }
 
+@font-face {
+font-family: 'Roboto';
+src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
+}
+  
 /* espacio de comienzo de cada pagina*/
 .espacio-inicio {
-    margin-top: 150px;
+    margin-top: 90px;
   }
   
 .logo{
-    width:85%;
-    padding-left: 80px;
+    width:90%;
+    padding-left: 130px;
 }
 
 .top_nav{
@@ -31,9 +36,10 @@
 
 .top_nav a {
     color: #2B2E42;
-    font-size: 18px;
+    font-size: 14px;
+    letter-spacing: 1px;
     font-family: "Raleway";
-    font-weight: bold;
+    font-weight: 800;
     text-decoration: none;
     margin: 0 15px;
     padding: 10px 10px;
@@ -58,4 +64,68 @@
 
 .footer{
     color:slategrey;
+}
+
+.contenedor_inicio{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image:url(../images/01.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.contenedor_que_hacemos{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-image:url(../images/02.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor_texto_inicio{
+    width: 73%;
+    padding-left: 170px;
+}
+
+.contenedor_texto_que_hacemos{
+    width: 90%;
+    padding-left: 170px;
+}
+
+.titulo_ppal{
+    color: white;
+    font-size: 48px;
+    font-family: "Raleway";
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.titulo_sec{
+    color: white;
+    font-size: 25px;
+    font-family: "Raleway";
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.titulo_body{
+    color: #d9d9d9;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.titulo_body_ppal{
+    color: white;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 1.5px;
 }
