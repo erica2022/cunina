@@ -77,8 +77,8 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     background-position: top;
 }
 .contenedor_texto_inicio{
-    width: 73%;
-    padding-left: 170px;
+    width: 78%;
+    margin: 0px auto;
 }
 
 /*SECCION QUE HACEMOS*/
@@ -101,8 +101,8 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 
 .contenedor_texto_que_hacemos{
-    width: 90%;
-    padding-left: 170px;
+    width: 78%;
+    margin: 0px auto;
 }
 
 
