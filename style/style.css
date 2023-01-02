@@ -23,9 +23,15 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
   
 .logo{
     width:90%;
-    padding-left: 130px;
 }
 /* BARRA DE NAVEGACION*/
+
+.contenedor_navbar{
+    width: 83%;
+    margin: 0px auto;
+}
+
+
 .top_nav{
     position: fixed;
     background-color: #D9D9D9;
@@ -77,13 +83,18 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     background-position: top;
 }
 .contenedor_texto_inicio{
-    width: 78%;
+    width: 77%;
     margin: 0px auto;
 }
 
-/*SECCION QUE HACEMOS*/
+.sub-conenedor{
+    width:80%;
+    margin: 0px 0px;
+}
+
+/*SECCION QUIENES SOMOS*/
 .contenedor_quienes_somos{
-    width: 78%;
+    width: 80%;
     margin: 0px auto;
     margin-top: 100px;
 }
@@ -101,7 +112,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 
 .contenedor_texto_que_hacemos{
-    width: 78%;
+    width: 77%;
     margin: 0px auto;
 }
 
