@@ -25,7 +25,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     width:90%;
     padding-left: 130px;
 }
-
+/* BARRA DE NAVEGACION*/
 .top_nav{
     position: fixed;
     background-color: #D9D9D9;
@@ -53,7 +53,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     display: flex;
     justify-content: end;
 }
-
+/*BOTON CON FONDO ROJO*/
 .ayudanos{
     color: white;
     font-size: 18px;
@@ -65,7 +65,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 .footer{
     color:slategrey;
 }
-
+/*SECCION INICIO*/
 .contenedor_inicio{
     width: 100vw;
     height: 100vh;
@@ -76,7 +76,12 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     background-size: cover;
     background-position: top;
 }
+.contenedor_texto_inicio{
+    width: 73%;
+    padding-left: 170px;
+}
 
+/*SECCION QUE HACEMOS*/
 .contenedor_que_hacemos{
     width: 100vw;
     height: 100vh;
@@ -88,16 +93,12 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     background-position: center;
 }
 
-.contenedor_texto_inicio{
-    width: 73%;
-    padding-left: 170px;
-}
-
 .contenedor_texto_que_hacemos{
     width: 90%;
     padding-left: 170px;
 }
 
+/*DISTINTOS TEXTOS*/
 .titulo_ppal{
     color: white;
     font-size: 48px;
