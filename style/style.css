@@ -82,6 +82,13 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 
 /*SECCION QUE HACEMOS*/
+.contenedor_quienes_somos{
+    width: 78%;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+/*SECCION QUE HACEMOS*/
 .contenedor_que_hacemos{
     width: 100vw;
     height: 100vh;
@@ -98,9 +105,19 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     padding-left: 170px;
 }
 
+
+
 /*DISTINTOS TEXTOS*/
 .titulo_ppal{
     color: white;
+    font-size: 48px;
+    font-family: "Raleway";
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.titulo_ppal_azul{
+    color: #1F2234;
     font-size: 48px;
     font-family: "Raleway";
     font-weight: 900;
@@ -121,6 +138,14 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     font-family: "Roboto";
     font-weight: 500;
     letter-spacing: 1.5px;
+}
+
+.textos{
+    color: black;
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 1.2px;
 }
 
 .titulo_body_ppal{
