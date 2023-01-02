@@ -22,15 +22,26 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
   }
   
 .logo{
-    width:90%;
+    width:100px;
+    margin: 0px 0px;
 }
 /* BARRA DE NAVEGACION*/
 
 .contenedor_navbar{
-    width: 83%;
+    width: 85%;
     margin: 0px auto;
 }
+.contenedor_logo{
+    width: 20%;
+    display: flex;
+    justify-content: left;
+}
 
+.contenedor_menu{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
 
 .top_nav{
     position: fixed;
@@ -83,7 +94,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     background-position: top;
 }
 .contenedor_texto_inicio{
-    width: 77%;
+    width: 80%;
     margin: 0px auto;
 }
 
