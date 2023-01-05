@@ -227,6 +227,14 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     letter-spacing: 5px;
 }
 
+.titulo_sub_ppal_rojo{
+    color: #D41A3C;
+    font-size: 36px;
+    font-family: "Raleway";
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
 .titulo_que_hacemos{
     color: white;
     font-size: 32px;
@@ -278,7 +286,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 
 .textos{
     color: black;
-    font-size: 16px;
+    font-size: 17px;
     font-family: "Roboto";
     font-weight: 500;
     letter-spacing: 1.2px;
