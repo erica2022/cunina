@@ -107,18 +107,19 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 .contenedor_quienes_somos{
     width: 80%;
     margin: 0px auto;
-    margin-top: 100px;
     padding: 95px 0;
 }
 
 .obj_ul li {
-  list-style: none;
+	list-style: none;
 }
 
-.obj_ul li::before { 
-content: "\2022"; 
-padding-right: 8px;
-color: red; 
+.obj_ul li::before {
+	content: "●";
+	color: red;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em
 }
 
 /*SECCION QUE HACEMOS*/
@@ -156,9 +157,50 @@ color: red;
 .cText {
   background-color: #1F2234;
   color: #D9D9D9;
+  border-radius: 18px 0px 0px 18px;
 }
 
+.cText_2 {
+    background-color: #1F2234;
+    color: #D9D9D9;
+    border-radius: 0px 18px 18px 0px;
+  }
 
+/* CONTACTO */
+.imagen{
+    width: 100vw;
+    height: 100vh;
+}
+
+.contenedor_contacto{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.contacto_texto{
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contacto_texto2{
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #D92A4A;
+    font-size: 14px;
+    font-family: "Raleway";
+    font-weight: 700;
+    letter-spacing: 1px;
+}
 
 /*DISTINTOS TEXTOS*/
 .titulo_ppal{
@@ -166,6 +208,30 @@ color: red;
     font-size: 48px;
     font-family: "Raleway";
     font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.titulo_sub_ppal{
+    color: white;
+    font-size: 36px;
+    font-family: "Raleway";
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.titulo_sub_ppal_azul{
+    color: #1F2234;
+    font-size: 36px;
+    font-family: "Raleway";
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+.titulo_que_hacemos{
+    color: white;
+    font-size: 32px;
+    font-family: "Raleway";
+    font-weight: 800;
     letter-spacing: 5px;
 }
 
@@ -186,9 +252,25 @@ color: red;
     letter-spacing: 1.5px;
 }
 
+.titulo_sec_rojo{
+    color: #D92A4A;
+    font-size: 25px;
+    font-family: "Raleway";
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
 .titulo_body{
     color: #d9d9d9;
     font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.texto_blanco{
+    color: #d9d9d9;
+    font-size: 17px;
     font-family: "Roboto";
     font-weight: 500;
     letter-spacing: 1.5px;
@@ -208,4 +290,24 @@ color: red;
     font-family: "Roboto";
     font-weight: 500;
     letter-spacing: 1.5px;
+}
+
+.textos_prof_ppal{
+    color: black;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.textos_prof_secu{
+    color: black;
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.imagen_prof{
+    size: 30%;
 }
