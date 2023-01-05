@@ -108,6 +108,17 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     width: 80%;
     margin: 0px auto;
     margin-top: 100px;
+    padding: 95px 0;
+}
+
+.obj_ul li {
+  list-style: none;
+}
+
+.obj_ul li::before { 
+content: "\2022"; 
+padding-right: 8px;
+color: red; 
 }
 
 /*SECCION QUE HACEMOS*/
@@ -120,11 +131,31 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     background-image:url(../images/02.png);
     background-size: cover;
     background-position: center;
+    
 }
 
 .contenedor_texto_que_hacemos{
     width: 77%;
     margin: 0px auto;
+}
+
+.appMovil {
+  background-image: url(../images/FONDO1.png);
+  background-size: cover;
+  /* height: 80vh; */
+}
+
+.card {
+  display: contents !important;
+}
+
+.cardSize {
+  width: 10% !important
+}
+
+.cText {
+  background-color: #1F2234;
+  color: #D9D9D9;
 }
 
 
@@ -142,8 +173,9 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     color: #1F2234;
     font-size: 48px;
     font-family: "Raleway";
-    font-weight: 900;
+    font-weight: bold;
     letter-spacing: 5px;
+
 }
 
 .titulo_sec{
