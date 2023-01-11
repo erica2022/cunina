@@ -15,7 +15,14 @@
 font-family: 'Roboto';
 src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
-  
+
+a:link { text-decoration: none;
+}
+a:visited {
+text-decoration: none;
+}
+
+
 /* espacio de comienzo de cada pagina*/
 .espacio-inicio {
     margin-top: 90px;
@@ -23,8 +30,13 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
   
 .logo{
     width:100px;
-    margin: 0px 0px;
+    margin: 0px 0px;   
 }
+
+.logo:hover{
+    opacity: 80%;
+}
+
 /* BARRA DE NAVEGACION*/
 
 .contenedor_navbar{
@@ -197,7 +209,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 
 .contacto_texto2{
     position: absolute;
-    top: 93%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: #D92A4A;
@@ -207,6 +219,10 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     letter-spacing: 1px;
 }
 
+.contacto_imagen{
+    size: 100%;
+    margin: 10px 10px;
+}
 /*DISTINTOS TEXTOS*/
 .titulo_ppal{
     color: white;
@@ -267,7 +283,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 
 .titulo_sec_rojo{
     color: #D92A4A;
-    font-size: 25px;
+    font-size: 28px;
     font-family: "Raleway";
     font-weight: 900;
     letter-spacing: 1.5px;
@@ -311,6 +327,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     font-family: "Roboto";
     font-weight: 700;
     letter-spacing: 1.2px;
+    margin: 0px 0px;
 }
 
 .textos_prof_secu{
@@ -319,6 +336,7 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     font-family: "Roboto";
     font-weight: 500;
     letter-spacing: 1.2px;
+    margin: 0px 0px;
 }
 
 .imagen_prof{
@@ -329,6 +347,10 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
     /* height: 100%; */
 }
 
+.redes_prof{
+    display: flex;
+    flex-direction: row;
+}
 
 /* seccion contacto */
 
@@ -340,21 +362,77 @@ src: local('Roboto'), url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 
 .tituloContac {
-  font-size: 30px;
-  color: #D9D9D9;
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 48px;
+    color: white;
+    letter-spacing: 2px;
 }
 
 .tituloContac_sub {
-  font-size: 21px;
-  color: #D9D9D9;
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto";
+  letter-spacing: 1.2px;
 }
 
 .textRedes {
-  color: #D9D9D9;
-  font: 2em sans-serif;
-  padding-left: 10px;
+    font-family: "Raleway";
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    padding-left: 10px;
+    letter-spacing: 2px;
+}
+
+.textRedes:hover{
+    color: #D92A4A;
 }
 
 .textFinal {
   font-size: 12px;
 }
+
+.img_redes{
+    size: 100%;
+    border-radius: 10px;
+}
+
+.img_redes:hover{
+    opacity: 50%   ;
+}
+
+.boton{
+    color:white;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #D92A4A;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.boton:hover{
+    color:#D92A4A;
+    font-family: "Raleway";
+    background-color: white;
+    border-color: #D92A4A;
+}
+
+@media (min-width: 640px){
+ 
+
+     
+    }
+     
+@media (min-width: 900px){
+     
+
+     
+    }
+     
+@media (min-width: 1800px){
+     
+
+     
+    }
