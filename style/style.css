@@ -34,7 +34,7 @@ text-decoration: none;
 }
 
 .img{
-    max-width: 90%;
+    max-width: 100%;
 }
 
 .logo:hover{
@@ -171,6 +171,12 @@ text-decoration: none;
   width: 10% !important
 }
 
+@media (min-width: 992px) and (max-width: 1140){
+    .boxImg {
+        display: none;
+      }
+}
+
 @media (min-width: 576px){
     .cText {
         background-color: #1F2234;
@@ -182,6 +188,11 @@ text-decoration: none;
         background-color: #1F2234;
         color: #D9D9D9;
         border-radius: 0px 18px 18px 0px;
+      }
+
+      .boxImg {
+        /*width: auto !important;*/
+          max-width: 100%;
       }
 
 }
@@ -199,6 +210,11 @@ text-decoration: none;
         border-radius: 18px 18px 18px 18px;
       }
 
+      .boxImg {
+        /*width: auto !important;*/
+          max-width: 100%;
+      }
+
 }
 
 @media (min-width: 992px){
@@ -213,14 +229,15 @@ text-decoration: none;
         color: #D9D9D9;
         border-radius: 0px 18px 18px 0px;
       }
+
+      .boxImg {
+        /*width: auto !important;*/
+          max-width: 100%;
+      }
 }
 
 
-.boxImg {
-  /*width: auto !important;*/
-    max-width: 100%;
 
-}
 
 /* CONTACTO */
 .imagen{
@@ -341,7 +358,7 @@ text-decoration: none;
     font-size: 17px;
     font-family: "Roboto";
     font-weight: 500;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.2px;
 }
 
 .textos{
@@ -457,3 +474,14 @@ text-decoration: none;
     background-color: white;
     border-color: #D92A4A;
 }
+
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+ }
+
+ .whatsapp:hover {
+    opacity: 70%;
+    transform:scale(1.15);
+ }
