@@ -31,3 +31,19 @@ btn_readLess2.addEventListener("click", () => {
     ? btn_readMore2.classList.add("show")
     : btn_readMore2.classList.remove("hide");
 });
+
+
+
+
+const whatsapp = document.getElementById("whatsapp");
+
+window.onscroll = () => {
+  let position = window.scrollY;
+
+  position >= 150
+    ? whatsapp.classList.replace("wts", "wts_show")
+    : whatsapp.classList.add("wts"),
+      whatsapp.classList.remove("wts_show"); 
+};
+
+

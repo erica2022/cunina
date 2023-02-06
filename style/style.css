@@ -97,6 +97,14 @@ a:visited {
   border-radius: 12px;
 }
 
+.redBox {
+  color: #ffffff !important;
+  background-color: #d92a4a;
+  border-radius: 12px;
+}
+
+/* style="color:#ffffff;background-color: #D92A4A;border-radius: 12px" */
+
 .footer {
   color: slategrey;
 }
@@ -173,7 +181,7 @@ a:visited {
 .contenedor_quienes_somos {
   width: 80%;
   margin: 0px auto;
-  padding: 95px 0;
+  padding: 105px 0;
 }
 
 .obj_ul li {
@@ -448,11 +456,9 @@ a:visited {
 }
 
 .imagen_prof {
-  /* width: auto;
-    height: auto; */
-  /* object-fit: cover !important; */
+
   width: 100%;
-  /* height: 100%; */
+
 }
 
 /* seccion contacto */
@@ -531,4 +537,12 @@ a:visited {
 .whatsapp:hover {
   opacity: 70%;
   transform: scale(1.15);
+}
+
+.wts {
+  display: none;
+}
+
+.wts_show {
+  display: block;
 }
