@@ -9,15 +9,17 @@ const btn_readLess2 = document.getElementById("btn_readLess2");
 
 
 btn_readMore.addEventListener("click", () => {  
-  text_hide.classList.toggle("show");
+  text_hide.classList.add("show");
   btn_readMore.classList.toggle("hide");
+  btn_readLess.classList.add("show")
 });
 
 btn_readLess.addEventListener("click", () => {
   text_hide.classList.remove("show");
-  text_hide.classList.contains("show")
-    ? btn_readMore.classList.add("show")
-    : btn_readMore.classList.remove("hide");
+  btn_readLess.classList.remove("show")
+  text_hide.classList.contains("hide")
+    ? btn_readMore.classList.remove("hide")
+    : btn_readMore.classList.remove("show");
 });
 
 btn_readMore2.addEventListener("click", () => {
